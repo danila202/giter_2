@@ -6,3 +6,6 @@ def func_test(string = 'test',number:int = 3):
 
 b = func_test
 
+print(b,'<- Место где хранится наша функция ')
+print('-----')
+print(b())
